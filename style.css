@@ -1,0 +1,170 @@
+@font-face {
+    font-family:kater;
+    src: url(./Font/KatherinaSignature-Regular.ttf);
+}
+
+@font-face {
+    font-family: avenirB;
+    src: url(./Font/AvenirNext-Bold.ttf);
+}
+
+@font-face {
+    font-family: avenirReg;
+    src: url(./Font/AvenirNext-Regular.ttf);
+}
+
+@font-face {
+    font-family: avenirItalic;
+    src: url(./Font/AvenirNext-Italic.ttf);
+}
+
+@font-face {
+    font-family: avenirLight;
+    src: url(./Font/AvenirNext-UltraLight.ttf);
+}
+
+@font-face {
+    font-family: avenirDemiBold;
+    src: url(./Font/AvenirNext-DemiBold.ttf);
+}
+
+:root{
+    --gradient: linear-gradient(
+        45deg,
+        #050C9C,
+        #3572EF,
+        #3ABEF9,
+        #A7E6FF,
+    );
+}
+
+.navdiv li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: avenirLight;
+    padding-right: 5rem;
+}
+
+.navdiv{
+    display: flex; 
+    background-color:black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: kater;
+    color: white;
+    padding-left: 7rem;
+    padding-top: 15px;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #0b56eb, #ffe222, #de2b2b);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.header-div{
+    height: 700px;
+    width: auto;
+    display: flex;
+}
+.header-div img{
+    height: 700px;
+    margin-right: 100px ;
+}
+.header-text{
+    order: 1;
+    align-items: center;
+    padding-top: 150px;
+}
+.header-text h1{
+    font-family: avenirB;
+    color: white;
+    font-size: 3rem;
+}
+.header-text p{
+    font-family: avenirLight;
+    color: white;
+    font-size: 1.5rem;
+}
+.container{
+    padding: 0px;
+    border: solid black; border-width: 0.5rem;
+    margin-bottom: 40px;
+}
+
+.mid-div li{
+    color:rgb(0, 0, 0);
+    list-style-type: none;
+}
+
+.mid-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.mid-div img{
+    height: 130px;
+    padding: 10px;
+}
+
+#MIXED-TEXT{
+    font-size: 40px;
+    font-family: avenirItalic;
+}
+#HANDRAWN-TEXT{
+    font-size: 25px;
+    font-family: avenirItalic;
+    margin-top: -15px;
+}
+#VISUAL-TEXT{
+    font-size: 25px;
+    font-family: avenir;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.right-mid-text{
+    text-align: end;
+    margin:30px
+}
+
+
+.card{
+    font-family: avenirReg;
+}
+.card h4{
+    font-family: avenirDemiBold;
+    margin-bottom: -20px;
+    margin-top: -5px;
+    font-size: 1rem;
+}
+
+.lower-div{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px;
+    justify-content: center;
+}
+.portfolio{
+    height: 400px;
+}
+
+.container-footer{
+    background-color: rgb(74, 34, 255);
+}
